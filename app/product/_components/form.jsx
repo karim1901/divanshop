@@ -117,7 +117,7 @@ const Form = ({qty,product,priceProduct,thumbnail}) => {
         e = document.getElementsByTagName("script")[0];
         e.parentNode.insertBefore(n, e);
       };
-      ttq.load("CU591VJC77UBK8D3KHP0");
+      ttq.load("D4IVIQRC77UBCCH9CQMG");
       ttq.page();
 
     })(window, document, "ttq");
@@ -164,6 +164,8 @@ const Form = ({qty,product,priceProduct,thumbnail}) => {
      }
 
   }, []);
+
+  
 
   return (
     <div className="mt-4" dir="rtl">
