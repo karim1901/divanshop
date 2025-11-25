@@ -176,10 +176,10 @@ const Navbar = () => {
                     <div className='flex justify-between items-center px-4 h-[3rem] bg-black' onClick={()=>{goToLink("/home")}}>
                         <IoMdMenu className='text-white text-[1.3rem]' onClick={onSide} />
                         <div className='text-white flex text-[1.3rem]  bg-black' dir='ltr'>
-                            <p className='font-semibold'>M</p>
-                            <p>irac</p>
+                            <p className='font-semibold'>D</p>
+                            <p>ivan</p>
                             <p className='font-semibold'>S</p>
-                            <p>hop</p>
+                            <p>tore</p>
                         </div>
                     </div>
                     <div className='p-[.5rem] relative '>
