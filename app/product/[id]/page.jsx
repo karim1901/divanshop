@@ -303,6 +303,139 @@ const Product = async ({ params }) => {
 
                 </div>
 
+                <div className="mx-2 my-6">
+                    <hr className="my-4" />
+
+                    <h1 className="text-[1.6rem] font-bold text-right mb-4">
+                        آراء الزبائن
+                    </h1>
+
+                    <div className='flex flex-col gap-4'>
+                        <div className="bg-white shadow-md rounded-2xl p-4 border border-gray-100 hover:shadow-xl transition duration-300">
+                            <div className="flex items-center gap-3 mb-3">
+                                <div className="w-12 h-12 rounded-full bg-gradient-to-tr from-blue-500 to-blue-300 flex items-center justify-center text-white text-lg font-bold">
+                                    🎧
+                                </div>
+                                <div className="text-right flex-1">
+                                    <p className="text-lg font-semibold">رأي الزبون 1</p>
+                                    <p className="text-sm text-gray-500">استمع للرأي الصوتي</p>
+                                </div>
+                            </div>
+
+                            <audio controls className="w-full rounded-lg">
+                                <source src="/audio/audio1.ogg" type="audio/ogg" />
+                                المتصفح لا يدعم تشغيل الصوت
+                            </audio>
+                        </div>
+                        <div className="bg-white shadow-md rounded-2xl p-4 border border-gray-100 hover:shadow-xl transition duration-300">
+                            <div className="flex items-center gap-3 mb-3">
+                                <div className="w-12 h-12 rounded-full bg-gradient-to-tr from-blue-500 to-blue-300 flex items-center justify-center text-white text-lg font-bold">
+                                    🎧
+                                </div>
+                                <div className="text-right flex-1">
+                                    <p className="text-lg font-semibold">رأي الزبون 2</p>
+                                    <p className="text-sm text-gray-500">استمع للرأي الصوتي</p>
+                                </div>
+                            </div>
+
+                            <audio controls className="w-full rounded-lg">
+                                <source src="/audio/audio2.ogg" type="audio/ogg" />
+                                المتصفح لا يدعم تشغيل الصوت
+                            </audio>
+                        </div>
+                        <div className="bg-white shadow-md rounded-2xl p-4 border border-gray-100 hover:shadow-xl transition duration-300">
+                            <div className="flex items-center gap-3 mb-3">
+                                <div className="w-12 h-12 rounded-full bg-gradient-to-tr from-blue-500 to-blue-300 flex items-center justify-center text-white text-lg font-bold">
+                                    🎧
+                                </div>
+                                <div className="text-right flex-1">
+                                    <p className="text-lg font-semibold">رأي الزبون 3</p>
+                                    <p className="text-sm text-gray-500">استمع للرأي الصوتي</p>
+                                </div>
+                            </div>
+
+                            <audio controls className="w-full rounded-lg">
+                                <source src="/audio/audio3.ogg" type="audio/ogg" />
+                                المتصفح لا يدعم تشغيل الصوت
+                            </audio>
+                        </div>
+                        <div className="bg-white shadow-md rounded-2xl p-4 border border-gray-100 hover:shadow-xl transition duration-300">
+                            <div className="flex items-center gap-3 mb-3">
+                                <div className="w-12 h-12 rounded-full bg-gradient-to-tr from-blue-500 to-blue-300 flex items-center justify-center text-white text-lg font-bold">
+                                    🎧
+                                </div>
+                                <div className="text-right flex-1">
+                                    <p className="text-lg font-semibold">رأي الزبون 4</p>
+                                    <p className="text-sm text-gray-500">استمع للرأي الصوتي</p>
+                                </div>
+                            </div>
+
+                            <audio controls className="w-full rounded-lg">
+                                <source src="/audio/audio4.ogg" type="audio/ogg" />
+                                المتصفح لا يدعم تشغيل الصوت
+                            </audio>
+                        </div>
+
+                        <div className="bg-white shadow-md rounded-2xl p-4 border border-gray-100 hover:shadow-xl transition duration-300">
+                            <div className="flex items-center gap-3 mb-3">
+                                <div className="w-12 h-12 rounded-full bg-gradient-to-tr from-blue-500 to-blue-300 flex items-center justify-center text-white text-lg font-bold">
+                                    🎧
+                                </div>
+                                <div className="text-right flex-1">
+                                    <p className="text-lg font-semibold">رأي الزبون 5</p>
+                                    <p className="text-sm text-gray-500">استمع للرأي الصوتي</p>
+                                </div>
+                            </div>
+
+                            <audio controls className="w-full rounded-lg">
+                                <source src="/audio/audio5.ogg" type="audio/ogg" />
+                                المتصفح لا يدعم تشغيل الصوت
+                            </audio>
+                        </div>
+
+                        <div className="bg-white shadow-md rounded-2xl p-4 border border-gray-100 hover:shadow-xl transition duration-300">
+                            <div className="flex items-center gap-3 mb-3">
+                                <div className="w-12 h-12 rounded-full bg-gradient-to-tr from-blue-500 to-blue-300 flex items-center justify-center text-white text-lg font-bold">
+                                    🎧
+                                </div>
+                                <div className="text-right flex-1">
+                                    <p className="text-lg font-semibold">رأي الزبون 6</p>
+                                    <p className="text-sm text-gray-500">استمع للرأي الصوتي</p>
+                                </div>
+                            </div>
+
+                            <audio controls className="w-full rounded-lg">
+                                <source src="/audio/audio6.ogg" type="audio/ogg" />
+                                المتصفح لا يدعم تشغيل الصوت
+                            </audio>
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div className="bg-white shadow-md rounded-2xl p-4 border border-gray-100 hover:shadow-xl transition duration-300">
+
+                        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                            <img src="/whatsapp/whatsapp1.jpeg" className="rounded-xl shadow-sm object-cover" alt="" />
+                            <img src="/whatsapp/whatsapp2.jpeg" className="rounded-xl shadow-sm object-cover" alt="" />
+                            <img src="/whatsapp/whatsapp3.jpeg" className="rounded-xl shadow-sm object-cover" alt="" />
+                            <img src="/whatsapp/whatsapp4.jpeg" className="rounded-xl shadow-sm object-cover" alt="" />
+                            <img src="/whatsapp/whatsapp5.jpeg" className="rounded-xl shadow-sm object-cover" alt="" />
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+
                 <div className='mx-2 text-[1.3rem] mp-4'>
                     <hr className='my-4' />
                     <h1>منتوجات قد تعجبك</h1>
@@ -353,10 +486,10 @@ const Product = async ({ params }) => {
                     <div className='w-[300px]'>
                         <div>
                             <div className=' flex text-[1.3rem] mb-4 ' dir='ltr'>
-                                <p className='font-semibold'>M</p>
-                                <p>irac</p>
+                                <p className='font-semibold'>D</p>
+                                <p>van</p>
                                 <p className='font-semibold'>S</p>
-                                <p>hop</p>
+                                <p>tore</p>
                             </div>
                             <p className='text-[.8rem] text-gray-400 w-[20rem]'>
                                 "اكتشف أحدث صيحات الموضة في miracshop حيث يلتقي الأسلوب مع التوفير."
